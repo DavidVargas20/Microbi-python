@@ -1,7 +1,7 @@
 # Microbi-python
 
 ## Contador microbit 9-0
-'''python
+``` python
 from microbit import *
 
 count = 9
@@ -16,8 +16,8 @@ while True:
         display.scroll(count)
     elif button_a.is_pressed():
         display.scroll(count)
-    sleep(100) '''
-
+    sleep(100)
+``` 
 
 – Contador 0 a 9 , agitando el microbit
 from microbit import *
