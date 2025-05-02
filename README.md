@@ -19,7 +19,7 @@ while True:
     sleep(100)
 ``` 
 
-## Contador 0 a 9 , agitando el microbit
+# Contador 0 a 9 , agitando el microbit
 ``` python
 from microbit import *
 
@@ -56,7 +56,7 @@ if respuesta == "OK":
 else:
     display.show("ERR")  # Si no recibe confirmación, muestra "ERR"
 ``` 
-#RECEPTOR
+# RECEPTOR
 ``` python
 from microbit import *
 import radio
