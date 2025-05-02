@@ -1,6 +1,6 @@
 # Microbi-python
 
-## Contador microbit 9-0
+# Contador microbit 9-0
 ``` python
 from microbit import *
 
@@ -32,8 +32,8 @@ while True:
         display.show(str(contador))  # Muestra el número actualizado
         sleep(1000)  # Espera 1 segundo para mostrar el número
 ```
-## RADIO 
-# EMISOR
+# RADIO 
+## EMISOR
 ``` python
 from microbit import *
 import radio
@@ -56,7 +56,7 @@ if respuesta == "OK":
 else:
     display.show("ERR")  # Si no recibe confirmación, muestra "ERR"
 ``` 
-# RECEPTOR
+## RECEPTOR
 ``` python
 from microbit import *
 import radio
