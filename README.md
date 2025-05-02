@@ -83,3 +83,15 @@ while True:
         display.clear()
         sleep(100)
 ```
+# Reproducir melodia al agitar
+``` Python
+from microbit import *
+import music
+
+while True:
+    if accelerometer.was_gesture("shake"):
+        display.show(Image.MUSIC_QUAVER)
+        music.play(music.ENTERTAINER)
+        sleep(1000)
+        display.clear()
+```
