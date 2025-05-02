@@ -19,7 +19,8 @@ while True:
     sleep(100)
 ``` 
 
-– Contador 0 a 9 , agitando el microbit
+## Contador 0 a 9 , agitando el microbit
+``` python
 from microbit import *
 
 contador = 0
@@ -30,8 +31,10 @@ while True:
         display.clear()  # Limpia la pantalla antes de mostrar el número
         display.show(str(contador))  # Muestra el número actualizado
         sleep(1000)  # Espera 1 segundo para mostrar el número
-— RADIO 
-EMISOR
+```
+## RADIO 
+# EMISOR
+``` python
 from microbit import *
 import radio
 
@@ -52,8 +55,9 @@ if respuesta == "OK":
     sleep(1000)  # Muestra la confirmación por un segundo
 else:
     display.show("ERR")  # Si no recibe confirmación, muestra "ERR"
-
-–RECEPTOR
+``` 
+#RECEPTOR
+``` python
 from microbit import *
 import radio
 
@@ -78,3 +82,4 @@ while True:
     else:
         display.clear()
         sleep(100)
+```
